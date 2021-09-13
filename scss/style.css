@@ -8,7 +8,7 @@ section {
   position: relative;
   width: 1440px;
   height: 900px;
-  background: #d6e1ff;
+  background: #e0e8ff;
   margin-top: 0;
 }
 
@@ -98,28 +98,28 @@ section .box .plan a {
   color: #382ae1;
 }
 
-section .box .button {
-  height: 50px;
-  width: 354px;
-  margin-top: 32px;
-  margin-bottom: 48px;
-  margin-left: 48px;
-  margin-right: 48px;
-  background: #382ae1;
-  border-radius: 11px;
-  -webkit-box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
-          box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+section .box .plan a:hover {
+  color: #766cf1;
+  text-decoration: none;
 }
 
-section .box .button button {
+section .box button {
   font-weight: 900;
   font-size: 15px;
-  margin: 15px 102px;
+  margin: 15px 48px;
   background-color: #382ae1;
   border: none;
   color: white;
   text-decoration: none;
   display: inline-block;
+  width: 358px;
+  height: 50px;
+  border-radius: 11px;
+}
+
+section .box button:hover {
+  background-color: #766cf1;
+  text-decoration: none;
 }
 
 section .box #cancel {
@@ -131,5 +131,10 @@ section .box #cancel {
   margin-left: 176px;
   margin-right: 176px;
   color: #717fa6;
+}
+
+section .box #cancel:hover {
+  color: #1f2e55;
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
